@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>P-ASC - Membership Subscription</title>
+    <link rel="stylesheet" href="https://use.typekit.net/mkc5mvl.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <script src="https://kit.fontawesome.com/feb1c1eebe.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/circular-revealer@0.0.8/dist/index.iife.js"></script>
+</head>
+
+<body>
+    <header>
+        <img class="header_logo" src="images/logo-header.png" alt="">
+        <div>
+            <i class="header__button nav-btn-js fa-3x fa-solid fa-bars"></i>
+            <nav class="header__nav nav-js" data-active="false">
+
+                <div class="header__menu">
+
+                    <div class="header_menu_col2">
+                        <div class="header__menu-item"><a href="index.html">HOME</a></div>
+                        <div class="header__menu-item"><a href="news.html">NEWS</a></div>
+                        <div class="header__menu-item"><a href="events.html">EVENTS</a></div>
+                        <div class="header__menu-item"><a href="about.html">ABOUT</a></div>
+                        <div class="header__menu-item"><a href="contact.html">CONTACT</a></div>
+                    </div>
+                    <div class="header_menu_col2">
+                        <div class="header__menu-item"><a href="episode_one.html">EPISODE ONE</a></div>
+                        <div class="header__menu-item"><a href="membership.html">MEMBERSHIP</a></div>
+                        <div class="header__menu-item"><a href="partners.html">PARTNERS</a></div>
+                        <div class="header__menu-item"><a href="resources.html">RESOURCES</a></div>
+                        <div class="icons">
+                            <div class="header__menu-item"><a href="https://www.facebook.com/pasc.nz/?ref=page_internal" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></div>
+                            <div class="header__menu-item"><a href="https://www.instagram.com/panasianscreencollective/ " target="_blank"><i class="fa-brands fa-instagram-square"></i></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="membership_subscription_title">
+        <h1>P-ASC MEMBERSHIP SUBSCRIPTION</h1>
+    </div>
+
+    <main class="membership_subscription_page">
+        <div>
+            <h2>CHOOSE YOUR PLAN</h2>
+            <div>
+                <form action="#" class="subscription_section choose_plan">
+
+                    <div>
+                        <input type="radio" id="gold_plan" name="plan" value="gold">
+                        <label for="gold">Gold Plan</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="silver_plan" name="plan" value="silver">
+                        <label for="silver">Silver Plan</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="bronze_plan" name="plan" value="bronze">
+                        <label for="bronze">Bronze Plan</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="student_plan" name="plan" value="student">
+                        <label for="student">Student Plan</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <h2>CONTACT DETAILS</h2>
+            <form action="#" class="subscription_section_container">
+                <div class="subscription_section">
+                    <div class="col-25"><label for="first_name">First Name</label></div>
+                    <div class="col-75"><input type="text" id="name" name="name" placeholder=""></div>
+                </div>
+
+                <div class="subscription_section">
+                    <div class="col-25"><label for="last_name">Last Name</label></div>
+                    <div class="col-75"><input type="text" id="last_name" name="last_name" placeholder=""></div>
+                </div>
+
+                <div class="subscription_section">
+                    <div class="col-25">
+                        <label for="mobile">Mobile</label></div>
+                    <div class="col-75">
+                        <input type="text" id="mobile" name="mobile" placeholder=""></div>
+                </div>
+                <div class="subscription_section">
+                    <div class="col-25"><label for="email_address">Location</label></div>
+                    <select class="col-75" id="location" name="location" aria-invalid="false">
+                    <option value="[&quot;Male&quot;]">Auckland</option>
+                    <option value="[&quot;outofauckland&quot;]">Out of Auckland</option>
+                    </select>
+                </div>
+                <div class="subscription_section">
+                    <div class="col-25"><label for="email_address">Email Address</label></div>
+                    <div class="col-75"><input type="text" id="email_address" name="email_address" placeholder=""></div>
+                </div>
+
+                <div class="subscription_section">
+                    <div class="col-25"><label for="password">Password</label></div>
+                    <div class="col-75"><input type="text" id="password" name="password" placeholder=""></div>
+                </div>
+            </form>
+        </div>
+
+        <div>
+            <h2>PAYMENT INFORMATION</h2>
+            <form action="#" class="subscription_section_container">
+                <div class="subscription_section">
+                    <div class="col-25"><label for="first_name">Credit Card Number</label></div>
+                    <div class="col-75"><input type="text" id="name" name="name" placeholder=""></div>
+                </div>
+
+                <div class="subscription_section">
+                    <div class="col-25"><label for="last_name">Expiration Date</label></div>
+                    <div class="col-75"><input type="text" id="last_name" name="last_name" placeholder=""></div>
+                </div>
+
+                <div class="subscription_section">
+                    <div class="col-25">
+                        <label for="mobile">CVV</label></div>
+                    <div class="col-75">
+                        <input type="text" id="mobile" name="mobile" placeholder=""></div>
+                </div>
+
+                <div class="subscription_section">
+                    <div class="col-25"><label for="email_address">Discount Code</label></div>
+                    <div class="col-75"><input type="text" id="email_address" name="email_address" placeholder=""></div>
+                </div>
+
+            </form>
+        </div>
+
+
+        <hr>
+
+        <div class="subscription_section pay_now_section">
+            <div class="pay_now">
+                <p>Pay Now:</p>
+                <h2>$75.00 NZD</h2>
+            </div>
+            <div>
+                <a class="btn3" href="thankyouforjoinpasc.html">SUBMIT</a>
+            </div>
+        </div>
+
+
+    </main>
+    <!-- -------------footer------------------------------------------------------------------ -->
+
+    <footer>
+        <div class="footer_container">
+            <div>
+                <img class="footer_logo" src="images/footer-logo.png" alt="">
+            </div>
+            <div class="footer_list">
+                <a class="hover_effect" href="index.html">HOME</a>
+                <a class="hover_effect" href="news.html">NEWS</a>
+                <a class="hover_effect" href="events.html">EVENTS</a>
+            </div>
+            <div class="footer_list">
+                <a class="hover_effect" href="membership.html">MEMBERSHIP</a>
+                <a class="hover_effect" href="partners.html">PARTNERS</a>
+                <a class="hover_effect" href="resources.html">RESOURCES</a>
+            </div>
+            <div class="footer_list">
+                <a class="hover_effect" href="episode_one.html">EPISODE ONE</a>
+                <a class="hover_effect" href="about.html">ABOUT</a>
+                <a class="hover_effect" href="contact.html">CONTACT</a>
+            </div>
+            <div class="footer_list">
+                <a href="#">FOLLOW US</a>
+                <div class="footer_icons">
+                    <a href="https://www.facebook.com/pasc.nz/?ref=page_internal" target="_blank"><i class="fa-brands fa-2x fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/panasianscreencollective/ " target="_blank"><i class="fa-brands fa-2x fa-instagram-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <hr>
+            <p class="footer-note">&copy;Pan-Asian Screen Collective 2022 / This website and its content are for educational purposes only</p>
+        </div>
+    </footer>
+
+
+
+    <script src="js/common.js"></script>
+</body>
+
+</html>
